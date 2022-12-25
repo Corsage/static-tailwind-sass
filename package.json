@@ -1,0 +1,24 @@
+{
+  "name": "vyary-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate setup for static website development with TailwindCSS and Sass.",
+  "scripts": {
+    "serve": "npm run build && gulp serve",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Corsage",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "browser-sync": "^2.27.11",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss-import": "^15.1.0",
+    "sass": "^1.57.1"
+  }
+}

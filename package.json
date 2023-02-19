@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "npm run build && gulp serve",
     "build": "gulp build",
+    "build:prod": "gulp build:prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Corsage",
@@ -15,9 +16,13 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "browser-sync": "^2.27.11",
+    "compress-images": "^2.0.5",
+    "del": "6.1.1",
+    "gifsicle": "^5.2.1",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
+    "pngquant-bin": "^6.0.1",
     "postcss-import": "^15.1.0",
     "sass": "^1.57.1"
   }
